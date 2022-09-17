@@ -1,0 +1,52 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: luminosity;
+background: rgba(223, 85, 5, 0.89);
+
+}
+.cabecalho{
+    font-size: 20px;  
+    text-align: center;
+    
+}
+
+
+.principal{
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(245, 196, 124, 0.397);
+    border-radius: 10px;
+}
+.anime{
+    display: flex;
+    align-items: row;
+    gap: 20px;
+    padding: 10px;
+}
+#image{
+    width: 200px;
+    box-shadow: 0 0 10px rgba(245, 196, 124, 0.397);
+    border-radius: 10px;
+
+}
+.linha{
+    font-size: 20px;
+    color: black;
+    box-shadow: 0 0 10px rgba(233, 142, 39, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+
+}
